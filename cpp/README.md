@@ -1,8 +1,6 @@
 # Error Handler
 A simple error handler written for c++
 
-Written for my own projects, but felt that it might have a home here.
-
 There are two functions which are shown in the example below
 
 Example
