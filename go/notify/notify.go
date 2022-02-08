@@ -5,13 +5,16 @@ import (
 	"os"
 )
 
-var Verbose_lvl = "0" // Default level, this will log nothing to the user
+var Verbose_lvl = "0"    // Default level, this will log nothing to the user
+var Exit_on_error = true // Set it to false if you don't want the program to exit
 
 func Error(msg string, where string) { // Print msg and exit
 	fmt.Println("#### Error ####")
 	fmt.Println("msg: " + msg)
 	fmt.Println("where: " + where)
-	os.Exit(1)
+	if Exit_on_error {
+		os.Exit(1)
+	}
 }
 
 func Inform(msg string) {

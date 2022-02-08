@@ -5,6 +5,10 @@ There are 4 functions in this project.
 `notify.Inform(msg)`<br/>
 `notify.Warning(msg)`<br/>
 `notify.Log(msg, log_level, verbose_level)`<br/>
+<br/>
+You can reach the builtin variables by <br/>
+`notify.Verbose = "<value between 0 and MAX>"`<br/>
+`notify.Exit_on_error = true|false`<br/>
 
 
 Example
