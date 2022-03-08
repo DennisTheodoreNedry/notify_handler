@@ -7,8 +7,8 @@ Example
 ```
 errorHandler _eH;
 
-_eH("This is an error message", "functionName");
-_eH("This is an error message");
+_eH.error("This is an error message", "functionName");
+_eH.error("This is an error message");
 ```
 
 Result
