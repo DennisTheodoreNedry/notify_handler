@@ -6,7 +6,7 @@ import (
 )
 
 var Verbose_lvl = "0"    // Default level, this will log nothing to the user
-var Exit_on_error = true // Set it to false if you don't want the program to exit
+var Exit_on_error = true // Set it to false if you don't want the program to exit when 'Error' is called
 
 func Error(msg string, where string) { // Print msg and exit
 	fmt.Println("#### Error ####")
