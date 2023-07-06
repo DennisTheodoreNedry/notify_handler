@@ -1,8 +1,27 @@
-# Notify Handler
-A simple notify handler written for c++ & golang
+# Notify handler
+Simpel and easy notify handler 
 
-Written for my own projects, but felt that it might have a home here.
+## Installation
+Simply run `github.com/s9rA16Bf4/notify_handler` to add it to your project
 
-There are examples of usage in each folder.
+## Contents
+The following table contains all tools available in this project.
 
-<b>Note:</b> The cpp version of this project contains fewer functions than it's golang counterpart and is more an error handler rather than a notifier.
+### Logging
+<b>Note:</b> Must utilize the `Constructor` function for this to work
+
+| Function         | Description     | Note |
+|--------------|-----------|-----------|
+| `SetLvl` | Sets the internal verbose level | |
+| `Log`| Prints the provided message if the internal verbose level is higher then the lowest level needed |  |
+
+### Informative
+| Function         | Description     | Note |
+|--------------|-----------|-----------|
+| `Inform` | Basic print |  |
+| `Warning`| Spicy basic print  |  |
+| `Error`| Prints a basic error message explaining what went wrong and where | Exits the program after printing |
+
+
+## Example
+Check out the project under `example/`
