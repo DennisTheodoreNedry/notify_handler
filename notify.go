@@ -8,13 +8,13 @@ import (
 	"github.com/s9rA16Bf4/notify_handler/colors"
 )
 
-type verbose_t struct {
+type Verbose_t struct {
 	verbose_lvl int
 }
 
 // Constructor, creates and returns a verbose object
-func Constructor(default_verbose_lvl string) verbose_t {
-	var new_verbose verbose_t
+func Constructor(default_verbose_lvl string) Verbose_t {
+	var new_verbose Verbose_t
 	new_verbose.SetLvl(default_verbose_lvl)
 
 	return new_verbose
@@ -23,7 +23,7 @@ func Constructor(default_verbose_lvl string) verbose_t {
 // Sets the internal verbose level for this object
 // Will call `object.Error` if the new verbose lvl
 // is invalid
-func (handler *verbose_t) SetLvl(new_verbose_lvl string) {
+func (handler *Verbose_t) SetLvl(new_verbose_lvl string) {
 
 	result, err := strconv.Atoi(new_verbose_lvl) // Tries to convert
 
@@ -54,7 +54,7 @@ func Warning(msg string) {
 
 // Prints a message depending if the configured verbose lvl
 // is high enough
-func (handler *verbose_t) Log(msg string, suggested_verbose_lvl int) {
+func (handler *Verbose_t) Log(msg string, suggested_verbose_lvl int) {
 	if handler.verbose_lvl >= suggested_verbose_lvl {
 		fmt.Println("[%] " + msg)
 	}
