@@ -12,4 +12,4 @@ clean_binary:
 	-rm $(BIN)
 
 dependencies:
-	go get github.com/s9rA16Bf4/notify_handler
+	go get github.com/DennisTheodoreNedry/notify_handler

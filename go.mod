@@ -1,3 +1,3 @@
-module github.com/s9rA16Bf4/notify_handler
+module github.com/DennisTheodoreNedry/notify_handler
 
 go 1.20

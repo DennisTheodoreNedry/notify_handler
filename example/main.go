@@ -1,6 +1,6 @@
 package main
 
-import notify "github.com/s9rA16Bf4/notify_handler"
+import notify "github.com/DennisTheodoreNedry/notify_handler"
 
 func main() {
 	handler := notify.Constructor("1")

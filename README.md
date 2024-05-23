@@ -2,7 +2,7 @@
 Simpel and easy notify handler 
 
 ## Installation
-Simply run `github.com/s9rA16Bf4/notify_handler` to add it to your project
+Simply run `github.com/DennisTheodoreNedry/notify_handler` to add it to your project
 
 ## Contents
 The following table contains all tools available in this project.

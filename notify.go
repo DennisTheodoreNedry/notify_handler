@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/s9rA16Bf4/notify_handler/colors"
+	"github.com/DennisTheodoreNedry/notify_handler/colors"
 )
 
 type Verbose_t struct {
